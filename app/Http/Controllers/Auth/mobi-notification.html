@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>  </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+         .noti-drop::after{
+            left: 63%!important;
+        }
+        .noti-up{
+            margin: 10px 0!important;
+        }
+        .noti-up span{
+            font-size: 14px;
+            font-weight: 500;
+            color: #424242;
+        }
+        .notificate-menu{
+            position: relative;
+            padding: 0 10px;
+        }
+        .notificate-menu ul{
+            list-style: none!important;
+            margin: 0;
+        }
+        .notificate-menu ul li {
+            margin: 5px 0;
+            border: #ece4e4 solid 2px;
+            box-shadow: 0 0 10px #cecece;
+            border-radius: 5px;
+        }
+        .notificate-menu ul li a{
+            text-decoration: none!important;
+            display: flex;
+        }
+        .notificate-icon{
+            padding: 10px;
+        }
+        .notificate-icon i{
+            background: black;
+            color: red;
+            font-size: 15px;
+            padding: 15px;
+            border-radius: 50%;
+            font-weight: 800;
+        }
+        .notificate-infos{
+            padding: 10px 0;
+        }
+        .notificate-infos h3{
+            font-size: 15px;
+            color: black;
+            font-weight: 500;
+            font-family: 'Roboto Condensed', sans-serif;
+            margin: 0;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        .notificate-infos span{
+            font-size: 12px;
+            color: black;
+            opacity: 0.5;
+            font-weight: 500;
+            font-family: 'Roboto Condensed', sans-serif;
+            margin: 0;
+        }
+
+     .top_counter{
+         /*width: 20px;*/
+         padding: 2px;
+         /*height: 20px;*/
+         background-color: red;
+         border-radius: 5px;
+         position: absolute;
+         top: 10px;
+         right: 2px;
+         color: white;
+         font-size:10px;
+     }
+     .noti-center{
+         box-shadow: 0 0 10px rgb(193, 193, 193);
+     }
+
+
+     /* ********* It needed to include and Mathi ko css sabai already cha tehi yo vitra vako matra include gardeu  ******** */
+
+     .notificate-menu{
+         max-height: 1005; /* ysma change cha*/
+         overflow: scroll;
+         padding-bottom: 0;
+         border-top: solid 2px black;
+     }
+
+     @media (min-width: 1281px) {
+
+        .d-is-none{
+            display: none;
+        }
+
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+
+        .d-is-none{
+            display: none;
+        }
+
+    }
+
+     /* Yaha end */
+    </style>
+  </head>
+  <body>
+      <div class="container d-is-none">
+          <div class="row">
+            <div class="noti-center" style="width: 100%;">
+                <div class="noti-up text-center">
+                  <span class="text-uppercase text-danger">
+                    Notifications
+                  </span>
+
+                </div>
+                  <div class="notificate-menu">
+                      <ul>
+                              <li>
+                                  <a href="">
+                                      <div class="notificate-icon">
+                                        <i class="fa fa-bell" aria-hidden="true"></i>
+                                      </div>
+                                      <div class="notificate-infos">
+                                          <h3> Title </h3>
+                                          <span>  Date </span>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                <a href="">
+                                    <div class="notificate-icon">
+                                      <i class="fa fa-bell" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="notificate-infos">
+                                        <h3> Title </h3>
+                                        <span>  Date </span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="notificate-icon">
+                                      <i class="fa fa-bell" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="notificate-infos">
+                                        <h3> Title </h3>
+                                        <span>  Date </span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="notificate-icon">
+                                      <i class="fa fa-bell" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="notificate-infos">
+                                        <h3> Title </h3>
+                                        <span>  Date </span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="notificate-icon">
+                                      <i class="fa fa-bell" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="notificate-infos">
+                                        <h3> Title </h3>
+                                        <span>  Date </span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="notificate-icon">
+                                      <i class="fa fa-bell" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="notificate-infos">
+                                        <h3> Title </h3>
+                                        <span>  Date </span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="notificate-icon">
+                                      <i class="fa fa-bell" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="notificate-infos">
+                                        <h3> Title </h3>
+                                        <span>  Date </span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="notificate-icon">
+                                      <i class="fa fa-bell" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="notificate-infos">
+                                        <h3> Title </h3>
+                                        <span>  Date </span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="notificate-icon">
+                                      <i class="fa fa-bell" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="notificate-infos">
+                                        <h3> Title </h3>
+                                        <span>  Date </span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="notificate-icon">
+                                      <i class="fa fa-bell" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="notificate-infos">
+                                        <h3> Title </h3>
+                                        <span>  Date </span>
+                                    </div>
+                                </a>
+                            </li>
+                      </ul>
+                  </div>
+                  <a href="#" name="" id="" class="btn btn-primary btn-lg btn-block" style="border-radius: none!important;">Load More</a>
+
+              </div>
+          </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

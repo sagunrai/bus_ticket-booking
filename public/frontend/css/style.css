@@ -1,0 +1,873 @@
+.nav-row {
+    position: sticky;
+    background-color: #fff;
+    top: 0;
+    z-index: 999;
+    border-bottom: solid 1px #424242;
+}
+
+.navcolour {
+    background-color: #fff
+}
+
+.navbar-brand {
+    /* color: white !important; */
+    font-size: 25px;
+}
+
+.nav-item {
+    /* color: white !important; */
+    font-size: 21px;
+    margin-right: 10px;
+}
+
+
+/* updating the for-text-form which lies in the first col */
+
+.for-text-form {
+    /* justify-content: center;
+    padding-top: 20px;
+    box-shadow: 0 2px 6px #c5c5c5;
+    padding: 20px; */
+}
+
+.modify-padding {
+    padding: 8px;
+    padding-top: 4px;
+}
+
+/*search box css start here*/
+.search-sec{
+    padding: 2rem;
+    z-index: 9;
+}
+.search-slt{
+    display: block;
+    width: 100% !important;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(2.5rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100% !important;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(2.5rem + 2px) !important;
+    border-radius:0;
+}
+@media (min-width: 992px){
+    .search-sec{
+        position: relative;
+        margin-top: -135px;
+        top: -121px;
+        /* background: #e6001b44 ; */
+    }
+    .sn-carousel{
+        height: 464px;
+        overflow: hidden;
+        background: #AC3365; /* fallback for old browsers*/
+        background: linear-gradient(to right, #E60019, #AC3365, #4B4CB4);
+
+    }
+}
+
+@media (max-width: 992px){
+    .search-sec{
+        position: relative;
+        background: #AC3365;  /* fallback for old browsers */
+        background: linear-gradient(to right, #E60019, #AC3365, #4B4CB4);
+    }
+    .sn-carousel{
+        /* height: 100px; */
+        overflow: hidden;
+        background: #AC3365;  /* fallback for old browsers */
+        background: linear-gradient(to right, #E60019, #AC3365, #4B4CB4);
+    }
+}
+
+
+/* updating the enter-city */
+
+.enter-city {
+    padding: 7px;
+    border-radius: 3px;
+    width: 300px;
+    background-image: url(/fontend/images/bus.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    border: none;
+    border: 1px solid rgb(119, 119, 119);
+    background-origin: content-box;
+}
+
+.updating-the-div {
+    background-image: none;
+}
+
+
+/* updating the next-col-4 */
+
+.next-col-4 {
+    padding-top: 20px;
+}
+
+
+/* making the bottom in the center */
+
+.designing-buttom {
+    padding-left: 85px;
+    padding-top: 10px;
+    color: white;
+}
+
+
+/* designing the col-4 Search-Buses-Buttom */
+
+.Search-Buses-Buttom {
+    padding: 13px;
+    background-color: #1C6DD0;
+    color: white;
+}
+
+
+/* making an hover effect to the .Search-Buses-Buttom */
+
+.Search-Buses-Buttom:hover {
+    background-color: #000957;
+}
+
+.bookbtn {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+    width: 100%!important;
+    border-radius: 50rem!important;
+    cursor: pointer;
+    margin-left: -20px;
+}
+
+.bookbtn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* index body */
+
+.thirdrow {
+    margin-top: 23px;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.sold>h1 {
+    text-align: center;
+    background-color: #f1dae2;
+    box-shadow: 2px 2px 2px grey;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 35px;
+    padding: 12px;
+    color: #066296;
+}
+
+.user h4,
+.user p {
+    text-align: center;
+}
+
+.sold>hr {
+    color: blue;
+    width: 100%;
+}
+
+.popular>h1 {
+    text-align: center;
+    color: #066296;
+    font-size: 32px;
+    padding: 7px;
+}
+
+.popular>hr {
+    width: 100%;
+    color: blue;
+}
+
+.place>h4 {
+    /* text-align: center; */
+    padding-right: 77px;
+    color: rgb(41, 41, 41);
+}
+
+.sn-contact-form{
+    padding: 10px;
+    width: 100%;
+    /* box-shadow: 0 2px 10px #747474; */
+}
+.sn-info{
+    height: 100%;
+    border-left: solid 2px;
+    width: 100%;
+    padding-left: 10px;
+}
+.place h4{
+    padding-left: 10px !important;
+    /* border-bottom: solid 2px #c5c5c5; */
+    box-shadow: 0px 5px 4px #dfdfdf;
+    padding: 5px;
+}
+
+.place a{
+    color: rgb(34, 34, 34);
+}
+
+.place1{
+    /* box-shadow: 0px 5px 6px rgb(196, 196, 196); */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h4.bi {
+    padding-right: 20px;
+}
+
+.fourthrow {
+    background-color: #ffff;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    /* box-shadow: 0 2px 6px #c5c5c5; */
+}
+
+.place1>li {
+    color: blueviolet;
+}
+
+.fifthrow {
+    background-color: #ffff;
+    margin-top: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* box-shadow: 0 2px 6px #c5c5c5; */
+}
+
+.popularop h1 {
+    text-align: center;
+    color: #066296;
+}
+
+.popularop hr {
+    width: 100%;
+}
+
+.operator>h4 {
+    text-align: center;
+    color: green;
+}
+
+.operator>ul {
+    margin-left: 50px;
+}
+
+.op {
+    padding-right: 54px;
+}
+
+.footer {
+    margin-top:0px;
+    padding-top: 15px;
+    box-shadow: 1px 1px 1px gray;
+    color: #fff;
+    background-color: #2b2b2b;
+}
+
+.head h4 {
+    text-align: center;
+}
+
+.head>hr {
+    width: 100%;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.last {
+    background: linear-gradient(90deg,#6464be, #e60019 70%);
+}
+
+/* .h5 {
+    padding-left: 20px;
+
+} */
+
+.ul{
+    border-top: solid 2px #f88;
+    padding-top: 10px;
+}
+.ul>li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.ul>li>a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.ul li a i {
+    display: inline-block;
+    /* padding: 0 10px; */
+    width: 30px;
+    text-align: center;
+    padding-top: 6px;
+    margin-right: 10px;
+    height: 30px;
+    color: #fff !important;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+.ul>li>a:hover {
+    color: black;
+    text-decoration: none;
+
+}
+
+.place {
+    color: blueviolet
+}
+
+.place>ul>li>a:hover {
+    color: black;
+    border-bottom: 1px solid red;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.operator>ul>li>a:hover {
+    color: green;
+    border-bottom: 1px solid red;
+    text-decoration: none;
+}
+
+.pay>ul>li>a>img {
+    height: 25px;
+}
+
+.pa {
+    margin-top: 3px;
+}
+
+.choose {
+    margin-top: 179px;
+    margin-left: -11px;
+}
+
+
+/* Bus List */
+
+.SECOND-ROW2 {
+    padding-top: 20px;
+}
+
+.gradien-text {
+    background: -webkit-linear-gradient(red, #49FF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-color {
+    background-color: #ebf2f2;
+}
+
+.first-col-div {
+    background-color: white;
+}
+
+.enter-city {
+    padding: 7px;
+    border-radius: 3px;
+    width: 300px;
+    background-image: url(bus.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    border: none;
+    border: 1px solid rgb(119, 119, 119);
+    background-origin: content-box;
+}
+
+.Search-Buses-Buttom {
+    padding: 13px;
+    background-color: #1C6DD0;
+    color: white;
+}
+
+
+/* making an hover effect to the .Search-Buses-Buttom */
+
+.Search-Buses-Buttom:hover {
+    background-color: #000957;
+}
+
+.first-col-div {
+    /* box-shadow: 1px 1px 2px black; */
+    /* box-shadow: 1px 1px 3px #c9c9c9; */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-top: 20px;
+}
+
+.modifying-for-text-form {
+    box-shadow: none;
+}
+
+.SOME-CONTENT-IMAGE {
+    padding: 4px;
+}
+
+.SOME-CONTENT-IMAGE {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sticky-div {
+    top: 0;
+    position: sticky;
+}
+
+.image-justify {
+    justify-content: center;
+}
+
+.SOME-CONTENT2 {
+    font-size: 15px;
+}
+
+.modify-color-row {
+    padding: 2px;
+}
+
+.making-row {
+    padding-top: 20px;
+}
+
+.making-row2 {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.hove1r-bottom:hover {
+    background-color: #000957;
+}
+
+.modifying-bottom {
+    margin-right: 10px;
+}
+
+
+/* making an awsome shape */
+
+.suv-div {
+    height: 2px;
+    width: 303px;
+    background-color: blueviolet;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.suv-div1 {
+    height: 48px;
+    width: 220px;
+    background-color: blueviolet;
+    /* position: absolute; */
+    margin-left: 40px;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+.main-div {
+    display: flex;
+    padding-top: 50px;
+    margin-left: 35%;
+}
+
+.hover-color {
+    color: rgb(121, 121, 121);
+}
+
+.hover-color:hover {
+    color: black;
+}
+
+.decorated-row {
+    background-color: cornflowerblue;
+    border-top: 1px solid green;
+}
+
+.main-color {
+    background-color: #ebf2f2;
+}
+
+.first-col-div {
+    background-color: white;
+}
+
+.first-col-div {
+    /* box-shadow: 1px 1px 2px black; */
+    /* box-shadow: 1px 1px 3px #c9c9c9; */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-top: 20px;
+}
+
+.modifying-for-text-form {
+    box-shadow: none;
+}
+
+.SOME-CONTENT-IMAGE {
+    padding: 4px;
+}
+
+.SOME-CONTENT-IMAGE {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sticky-div {
+    top: 0;
+    position: sticky;
+}
+
+.image-justify {
+    justify-content: center;
+}
+
+.SOME-CONTENT2 {
+    font-size: 15px;
+}
+
+.making-row {
+    padding-top: 20px;
+}
+
+.making-row2 {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+
+/* end Bus List */
+
+a {
+    text-decoration: none;
+}
+
+
+/* Bus Book Page */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Condensed:wght@300&family=Spline+Sans&display=swap');
+
+/* updating the body tag>>> */
+
+#full-page {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Spline Sans', sans-serif;
+    background-color: #ebf2f2;
+}
+
+
+/* coloring the first row */
+
+.first-row {
+    background-color: #1C6DD0;
+    top: 0;
+    /* position:sticky; */
+    z-index: 2;
+}
+
+
+/* updating the nav_logo */
+
+.nav_logo {
+    padding: 7px;
+}
+
+
+/* designing an list */
+
+.nav {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.nav-item {
+    padding: 18px;
+    font-size: 18px;
+    /* border-left:2px solid #003372 ; */
+    /* border-right:2px solid #003372  ; */
+}
+
+
+/* making an hover effect to the .nav-item */
+
+.nav-item:hover {
+    background-color: #e0e0e0;
+    border-bottom: 1px solid #e60019;
+}
+
+
+/* updating the nav-links */
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/* making an hover effect to the .nav-links */
+
+.nav-links:hover {
+    color: white;
+}
+
+.BUS-SECOND-ROW {
+    padding-top: 20px;
+}
+
+.bottom-book {
+    background-color: #1C6DD0;
+    color: white;
+    border: none;
+    padding: 10px;
+    padding-right: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.horizantal-line {
+    padding-left: 5px;
+}
+
+.span-modify {
+    display: inline-block;
+}
+
+.next-row-text {
+    padding-top: 5px;
+}
+
+.playing-padding-row {
+    padding-left: 10px;
+    /* background-color: white; */
+}
+
+.design-input-tag {
+    padding: 10px;
+    border: none;
+    border: 1px solid blueviolet;
+    width: 300px;
+    background-image: url(person.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.design-input-tag-email {
+    padding: 10px;
+    border: none;
+    border: 1px solid blueviolet;
+    width: 300px;
+    background-image: url(email.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.design-input-tag1 {
+    padding: 10px;
+    border: none;
+    border: 1px solid blueviolet;
+    width: 100px;
+}
+
+.number-code {
+    padding: 10px;
+    margin-left: 20px;
+    position: relative;
+    border: 1px solid blueviolet;
+    width: 282px;
+}
+
+.apply-now-bottom {
+    /* border:1px solid orangered; */
+    border: none;
+    border: 1px solid orangered;
+    padding: 6px;
+    background-color: white;
+    color: orangered;
+    border-radius: 4px;
+    margin-left: 3px;
+    font-size: 14px;
+}
+
+.apply-now-bottom:hover {
+    background-color: #1C6DD0;
+    color: white;
+    border: 1px solid #1C6DD0;
+}
+
+.modify-color-white {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 1px 1px 3px rgb(109, 109, 109);
+    border: 1px solid rgb(109, 109, 109);
+}
+
+.first-bus-row {
+    border-bottom: 1px solid rgb(109, 109, 109);
+}
+
+.book-bottom {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.playing-shadow-color {
+    background-color: white;
+    width: fit-content;
+}
+
+.play-shodow-modify {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 1px 1px 3px rgb(109, 109, 109);
+}
+
+.play-shodow-modify1 {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 1px 1px 3px rgb(109, 109, 109);
+    margin-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.radio-modify {
+    padding-left: 10px;
+}
+
+.for-gender {
+    display: flex;
+}
+
+
+.design-input-tag-div {
+    padding-top: 10px;
+}
+
+.for-gender {
+    padding-top: 10px;
+}
+
+.input-contet-coupen {
+    padding-top: 10px;
+}
+
+
+/* Bus Book Page End */
+.card-body h3{
+    color:black;
+}
+.card-body p{
+    color:black;
+}
+/* Login Css */
+
+#login_section{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #a9a9a994;
+    z-index: 999999;
+}
+.login_container{
+    height: 100%;
+    width: 100%;
+}
+.login_card{
+    border-radius: 0 !important;
+}
+.login_form{
+    justify-content: center;
+    display: grid;
+}
+.close_btn{
+    cursor: pointer;
+    font-weight: 500;
+
+}
+.login_button{
+    border: 1px solid black !important;
+    border-radius: 0px !important;
+    font-weight: 600 !important;
+}
+.login_button:hover{
+    background-color: rgb(255, 0, 0) !important;
+    color: #ffffff !important;
+}
+.costum_input{
+    display: block;
+    width: 100%;
+    padding: 4px 8px;
+    border-radius: 0;
+    border: 1px black solid;
+}
+.social_login{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+.social_facebook{
+    color: #0a80ed;
+    border: 1px #0a80ed solid;
+}
+.social_facebook:hover{
+    background-color: #0a80ed;
+    color: #fff;
+}
+.social_google{
+    color: #27995a;
+    border: 1px #27995a solid;
+}
+.social_google:hover{
+    background-color: #27995a;
+    color: #fff;
+}
+.show_hide_password_button {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+/* end login css */
